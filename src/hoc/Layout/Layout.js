@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import Aux from '../ReactAux/ReactAux';
+
+import Logo from '../../components/Logo/Logo';
+import Tagline from '../../components/Tagline/Tagline';
 //import classes from './Layout.css';
 
 class Layout extends Component {
@@ -8,9 +11,8 @@ class Layout extends Component {
     render() {
         return (
             <Aux>
-                <div>LOGO</div>
-                <div>Tagline</div>
-                <div>nav</div>
+                <Logo />
+                <Tagline />
             </Aux>
         );
     }
