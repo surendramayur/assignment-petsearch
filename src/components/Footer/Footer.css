@@ -1,3 +1,19 @@
 .Footer {
     text-align: center;
+    background-color: white;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    height: auto;
+    margin-top: 50px;
+}
+
+.Footer a {
+    display: inline-block;
+}
+
+.Footer a img {
+    zoom: 0.3;
+    height: auto;
+    display: block;
 }
