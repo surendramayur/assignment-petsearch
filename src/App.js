@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 
-import './App.css';
+import classes from './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div>Something</div>
+      <div className={classes.App}>React-App Initialized</div>
     );
   }
 }
