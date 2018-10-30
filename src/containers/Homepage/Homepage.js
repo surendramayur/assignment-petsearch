@@ -16,8 +16,10 @@ class Homepage extends Component {
         return (
         <div className={classes.Homepage}>
             <Toolbar />
-            <Route path="/" exact component={Layout} />
-            <Route path="/" exact component={GetApp} />            
+            <div>
+                <Route path="/" exact component={Layout} />
+                <Route path="/" exact component={GetApp} />   
+            </div>                       
             <Route path="/about" exact component={About} />
             <Route path="/careers" exact component={Careers} />
             <Route path="/contact" exact component={Contact} />
