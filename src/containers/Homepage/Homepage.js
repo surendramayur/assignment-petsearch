@@ -1,22 +1,28 @@
 import React, { Component } from 'react';
+import { Route } from 'react-router';
 
 import classes from './Homepage.css';
-import Aux from '../../hoc/ReactAux/ReactAux';
 import Layout from '../../hoc/Layout/Layout';
 import Toolbar from '../../components/Navigation/Toolbar';
 import Footer from '../../components/Footer/Footer';
 import GetApp from '../../components/GetApp/GetApp';
+import About from '../About/About';
+import Careers from '../Careers/Careers';
+import Contact from '../Contact/Contact';
+import Partner from '../Partner/Partner';
 
 class Homepage extends Component {
     render() {
         return (
         <div className={classes.Homepage}>
-            <Aux>
             <Toolbar />
-            <Layout />
-            <GetApp />
-            <Footer />
-            </Aux>
+            <Route path="/" exact component={Layout} />
+            <Route path="/" exact component={GetApp} />
+            <Route path="/" exact component={Footer} />
+            <Route path="/about" exact component={About} />
+            <Route path="/careers" exact component={Careers} />
+            <Route path="/contact" exact component={Contact} />
+            <Route path="/partner" exact component={Partner} />
         </div>
         );
     }
