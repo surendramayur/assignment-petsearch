@@ -3,21 +3,24 @@ import classes from './Footer.css';
 import fblogo from '../../assets/images/fb.png';
 import instalogo from '../../assets/images/insta.png';
 import inlogo from '../../assets/images/in.png';
+import {Link} from 'react-router-dom';
 
 const footer = () => (
     <div className={classes.Footer}>
-        <ul>
-            <li>About Us</li>
-            <li>Careers</li>
-            <li>Contact</li>
+        <div style={{display: 'inline-block'}} ><ul>
+            <li><Link to="/about">About Us</Link></li>
+            <li><Link to="/careers">Careers</Link></li>
+            <li><Link to="/contact">Contact</Link></li>
             <li>Blog</li>
-        </ul>
-        <ul>
+        </ul></div>
+
+        <div style={{display: 'inline-block'}}><ul>
             <li>Privacy Policy</li>
             <li>Terms & conditions</li>
             <li>Questions or Feedback?</li>
             <li>Write to us at <a href='/'>contact@petsearch.in</a></li>
-        </ul>
+        </ul></div>
+        
         
         <div>          
             <a href='https://www.facebook.com/Petsearch-438147443241313/'>

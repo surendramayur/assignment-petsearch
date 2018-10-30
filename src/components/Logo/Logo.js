@@ -3,8 +3,8 @@ import React from 'react';
 import dogLogo from '../../assets/images/logo.png';
 import classes from './Logo.css';
 
-const logo = (props) => (
-    <div className={classes.Logo} style={{height: props.height}} >
+const logo = () => (
+    <div className={classes.Logo}  >
         <img src={dogLogo} alt="PetSearchLogo" />
     </div>
 );

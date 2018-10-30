@@ -1,16 +1,12 @@
 .Footer {
-    text-align: left;
     color: white;
     font-size: 20px;
     line-height: 2;
-    color: #FFFFFF;
     font-weight: 300;
     background-color: #E6485B;
     padding: 8px;
     box-sizing: border-box;
-    border-radius: 5px;
     height: auto;
-    margin-top: 50px;
 }
 
 .Footer ul {
@@ -23,7 +19,9 @@
 }
 
 .Footer a img {
-    zoom: 0.3;
+    margin-left: 50%;
+    width: 50%;
+    zoom: 0.5;
     height: auto;
-    display: block;
+    display: inline-block;
 }

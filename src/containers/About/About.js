@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 
 import classes from './About.css';
+import Button from '../../components/UI/Button/Button';
 
 class About extends Component {
     render() {
@@ -16,7 +18,10 @@ class About extends Component {
                 <p>
                     Petsearch provides a common platform for both pet breeders and aspiring pet owners to find a good home for all pet animals.
                 </p>
+                <Button><Link to="/form">Know More..</Link></Button>
+                
             </div>
+
         );
     }
 }

@@ -1,9 +1,12 @@
 .GetApp {
     text-align: center;
+    display: inline-block;
+    background-color: rgb(238, 184, 174);
 }
 .GetApp img {
     width: 35%;
     height: auto;
+    display: inline-block;
 }
 
 .GetApp a {
@@ -11,5 +14,5 @@
     line-height: 2;
     color: #e6485b;
     font-weight: 300;
-    background-color: white;
+    display: inline-block;
 }

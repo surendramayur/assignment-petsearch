@@ -10,12 +10,22 @@ import About from '../About/About';
 import Careers from '../Careers/Careers';
 import Contact from '../Contact/Contact';
 import Partner from '../Partner/Partner';
+//import Modal from '../../components/UI/Modal/Modal';
+import Form from '../../components/Form/Form';
+//import spinner from '../../components/UI/Spinner/Spinner';
 
 class Homepage extends Component {
+
+    state = {
+        loading: false,
+
+    }
+
     render() {
         return (
         <div className={classes.Homepage}>
             <Toolbar />
+            <Route path="/form" exact component={Form} />
             <div>
                 <Route path="/" exact component={Layout} />
                 <Route path="/" exact component={GetApp} />   
