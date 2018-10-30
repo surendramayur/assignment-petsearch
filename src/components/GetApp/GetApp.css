@@ -1,0 +1,15 @@
+.GetApp {
+    text-align: center;
+}
+.GetApp img {
+    width: 50%;
+    height: auto;
+}
+
+.GetApp a {
+    font-size: 50px;
+    line-height: 2;
+    color: #e6485b;
+    font-weight: 300;
+    background-color: white;
+}

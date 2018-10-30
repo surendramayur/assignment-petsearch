@@ -1,10 +1,8 @@
 import React from 'react';
 import classes from './Footer.css';
-//import Aux from '../../hoc/ReactAux/ReactAux';
 import fblogo from '../../assets/images/fb.png';
 import instalogo from '../../assets/images/insta.png';
 import inlogo from '../../assets/images/in.png';
-//import logo from '../../assets/images/logo.png';
 
 const footer = () => (
     <div className={classes.Footer}>
