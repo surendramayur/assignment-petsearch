@@ -1,6 +1,11 @@
 .Footer {
-    text-align: center;
-    background-color: white;
+    text-align: left;
+    color: white;
+    font-size: 20px;
+    line-height: 2;
+    color: #FFFFFF;
+    font-weight: 300;
+    background-color: #E6485B;
     padding: 8px;
     box-sizing: border-box;
     border-radius: 5px;
@@ -8,7 +13,12 @@
     margin-top: 50px;
 }
 
+.Footer ul {
+    list-style-type: none;
+}
+
 .Footer a {
+    text-align: center;
     display: inline-block;
 }
 

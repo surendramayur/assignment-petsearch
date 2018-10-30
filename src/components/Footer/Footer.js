@@ -1,20 +1,26 @@
 import React from 'react';
 import classes from './Footer.css';
-import Aux from '../../hoc/ReactAux/ReactAux';
+//import Aux from '../../hoc/ReactAux/ReactAux';
 import fblogo from '../../assets/images/fb.png';
 import instalogo from '../../assets/images/insta.png';
 import inlogo from '../../assets/images/in.png';
-import logo from '../../assets/images/logo.png';
+//import logo from '../../assets/images/logo.png';
 
 const footer = () => (
     <div className={classes.Footer}>
-        <Aux>
-            About, Careers, Contact, Blog
-        </Aux>
-        <div>Privacy policy- Use the same content</div>
-        <div>Terms & conditions</div>
-        <p>Questions or Feedback?
-        Write to us at <a href='/'>contact@petsearch.in</a></p>
+        <ul>
+            <li>About Us</li>
+            <li>Careers</li>
+            <li>Contact</li>
+            <li>Blog</li>
+        </ul>
+        <ul>
+            <li>Privacy Policy</li>
+            <li>Terms & conditions</li>
+            <li>Questions or Feedback?</li>
+            <li>Write to us at <a href='/'>contact@petsearch.in</a></li>
+        </ul>
+        
         <div>          
             <a href='https://www.facebook.com/Petsearch-438147443241313/'>
                 <img src={fblogo} alt="Facebook" />
