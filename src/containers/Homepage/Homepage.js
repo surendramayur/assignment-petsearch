@@ -17,12 +17,12 @@ class Homepage extends Component {
         <div className={classes.Homepage}>
             <Toolbar />
             <Route path="/" exact component={Layout} />
-            <Route path="/" exact component={GetApp} />
-            <Route path="/" exact component={Footer} />
+            <Route path="/" exact component={GetApp} />            
             <Route path="/about" exact component={About} />
             <Route path="/careers" exact component={Careers} />
             <Route path="/contact" exact component={Contact} />
             <Route path="/partner" exact component={Partner} />
+            <Footer />
         </div>
         );
     }
