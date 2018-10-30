@@ -1,11 +1,17 @@
 import React, { Component } from 'react';
 
 import classes from './App.css';
+import Aux from './hoc/ReactAux/ReactAux';
+import Layout from './hoc/Layout/Layout';
 
 class App extends Component {
   render() {
     return (
-      <div className={classes.App}>React-App Initialized</div>
+      <div className={classes.App}>
+        <Aux>
+          <Layout />
+        </Aux>
+      </div>
     );
   }
 }
