@@ -3,6 +3,7 @@ import React, {Component} from 'react';
 import Aux from '../../hoc/ReactAux/ReactAux';
 import Button from '../../components/UI/Button/Button';
 import classes from './Form.css';
+import Homepage from '../Homepage/Homepage';
 
 class form extends Component  {
 
@@ -33,7 +34,6 @@ class form extends Component  {
         + this.state.email +'\n more '
         + this.state.more);
         window.location.reload();
-
     }
 
     render() {
