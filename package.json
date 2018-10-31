@@ -1,8 +1,9 @@
 {
-  "homepage": "http://surendramayur.github.io/assignment-petsearch",
+  
   "name": "pet-search-assignment",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://surendramayur.github.io/assignment-petsearch",
   "dependencies": {
     "@babel/core": "7.1.0",
     "@svgr/webpack": "2.4.1",
@@ -61,7 +62,7 @@
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
