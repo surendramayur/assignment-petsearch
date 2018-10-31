@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 
 import classes from './About.css';
-import Button from '../../components/UI/Button/Button';
+import Button from '../UI/Button/Button';
 
 class About extends Component {
     render() {

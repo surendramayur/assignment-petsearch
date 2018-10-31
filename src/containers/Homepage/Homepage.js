@@ -6,29 +6,25 @@ import Layout from '../../hoc/Layout/Layout';
 import Toolbar from '../../components/Navigation/Toolbar';
 import Footer from '../../components/Footer/Footer';
 import GetApp from '../../components/GetApp/GetApp';
-import About from '../About/About';
-import Careers from '../Careers/Careers';
-import Contact from '../Contact/Contact';
-import Partner from '../Partner/Partner';
-//import Modal from '../../components/UI/Modal/Modal';
-import Form from '../../components/Form/Form';
-//import spinner from '../../components/UI/Spinner/Spinner';
+import About from '../../components/About/About';
+import Careers from '../../components/Careers/Careers';
+import Contact from '../../components/Contact/Contact';
+import Partner from '../../components/Partner/Partner';
+import Features from '../../components/Features/Features';
+import Form from '../../containers/Form/Form';
 
-class Homepage extends Component {
-
-    state = {
-        loading: false,
-
-    }
+class Homepage extends Component {    
+    
 
     render() {
         return (
         <div className={classes.Homepage}>
             <Toolbar />
-            <Route path="/form" exact component={Form} />
+        <Route path="/form" exact component={Form} />
             <div>
                 <Route path="/" exact component={Layout} />
-                <Route path="/" exact component={GetApp} />   
+                <Route path="/" exact component={GetApp} />
+                <Route path="/" exact component={Features} />   
             </div>                       
             <Route path="/about" exact component={About} />
             <Route path="/careers" exact component={Careers} />

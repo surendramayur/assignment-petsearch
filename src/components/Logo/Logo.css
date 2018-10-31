@@ -4,10 +4,11 @@
     box-sizing: border-box;
     border-radius: 5px;    
     height: auto;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .Logo img {
+    margin: 10%;
     height: auto;
     zoom: 0.5;
 }

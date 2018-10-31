@@ -6,7 +6,8 @@
     background-color: #E6485B;
     padding: 8px;
     box-sizing: border-box;
-    height: auto;
+    
+    width: 100%;
 }
 
 .Footer ul {

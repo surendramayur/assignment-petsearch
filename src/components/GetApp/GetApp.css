@@ -4,6 +4,7 @@
     background-color: rgb(238, 184, 174);
 }
 .GetApp img {
+    margin: 8%;
     width: 35%;
     height: auto;
     display: inline-block;

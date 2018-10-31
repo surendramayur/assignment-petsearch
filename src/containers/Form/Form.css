@@ -1,0 +1,13 @@
+.Form {
+    margin: 10%;
+    text-align: center;
+    padding: 5px;
+    color: #e6485b;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.Form div {
+    margin: 4%;
+}
