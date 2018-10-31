@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import classes from './Partner.css';
 import {Link} from 'react-router-dom';
-import Button from '../../components/UI/Button/Button';
 
 class Partner extends Component {
     render() {
